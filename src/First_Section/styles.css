@@ -1,0 +1,42 @@
+.hero {
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgb(49 49 49);
+    max-width: 670px;
+}
+
+@media (min-width: 1068px) {
+    .hero {
+        padding-right: 40px;
+        border-style: none !important;
+    }
+    .top-stories {
+        max-width: 380px !important;
+    }
+
+    .story-container:last-child {
+        border-style: none !important;
+    }
+}
+
+@media (min-width: 780px) {
+    .hero {
+        padding-right: 40px;
+    }
+    .top-stories {
+        max-width: 580px;
+    }
+}
+
+.logo {
+    position: relative;
+    margin-bottom: -18px;
+    z-index: 10;
+}
+
+.top-stories-header {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
