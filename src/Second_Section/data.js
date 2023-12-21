@@ -45,6 +45,20 @@ export const stories = [
         link: 'https://www.pcgamer.com/baldurs-gate-3-find-halsin/'
     },
     {
+        type: 'video',
+        videoLink: 'https://www.youtube.com/embed/qRdrjsuc7uw?si=OtEDOWbx1clEtGge',
+        firstSentence: 'Another trailer for Contra: Operation Galuga.',
+        description: `The upcoming game puts a modern spin on the classic run ‘n’ gun,
+         with its latest trailer highlighting the roster of playable characters and some revamped maps. 
+         Contra: Operation Galuga comes from Konami and WayForward,
+           and will be available for the Nintendo Switch, Xbox, PS5, PS4, and PC in “early” 2024.`,
+        header: {
+            author: 'emma roth',
+            timePosted: 'two hours ago',
+        },
+        link: 'https://www.theverge.com/2023/12/5/23989257/another-trailer-for-contra-operation-galuga'
+    },
+    {
         type: 'regular',
         image: topstory4,
         description: `Everything You Need To Know About Baldur’s Gate 3`,
@@ -72,17 +86,19 @@ export const stories = [
     },
     {
         type: 'video',
-        videoLink: 'https://www.youtube.com/embed/qRdrjsuc7uw?si=OtEDOWbx1clEtGge',
-        firstSentence: 'Another trailer for Contra: Operation Galuga.',
-        description: `The upcoming game puts a modern spin on the classic run ‘n’ gun,
-         with its latest trailer highlighting the roster of playable characters and some revamped maps. 
-         Contra: Operation Galuga comes from Konami and WayForward,
-           and will be available for the Nintendo Switch, Xbox, PS5, PS4, and PC in “early” 2024.`,
+        videoLink: 'https://www.youtube.com/embed/QZF8Of8s6Z0?si=SfkW6q3ZWNKWVJPa',
+        firstSentence: 'Apple Arcade is assembling a Dream Team.',
+        description: `My everlasting search for a new Sonic game that isn’t soul-crushing or a 
+        technical mess may have come to an end but there’s a catch: it’s only available on Apple Arcade.
+        Sonic Dream Team, which Polygon makes sound like a better version of Sonic Superstars, launches today on Apple Arcade.
+        
+        Also coming today to Apple Arcade is another dream game, Disney meets Animal Crossing sim Disney Dreamlight Valley: 
+        Arcade Edition, along with Puzzle & Dragons Story and Turmoil+.`,
         header: {
-            author: 'emma roth',
-            timePosted: 'two hours ago',
+            author: 'ash parish',
+            timePosted: '8:42 PM PST',
         },
-        link: 'https://www.theverge.com/2023/12/5/23989257/another-trailer-for-contra-operation-galuga'
+        link: 'https://www.theverge.com/2023/12/5/23989239/apple-arcade-is-assembling-a-dream-team'
     },
 ];
 
